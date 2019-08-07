@@ -439,6 +439,17 @@ body {
 	}
 }
 
+.accordion {
+	.card {
+		border-color: white;
+	}
+	.card-header {
+		background-color: $primary-light;
+		border-color: white;
+	}	
+}
+
+
 /* Page Block - CTA */
 
 #cta-block {
@@ -550,7 +561,7 @@ body {
 /* Page Block - Side Navigation */
 #wrapper-subnav {
 	h3 {
-		background-color: #C3D7E0;
+		background-color: $primary-light;
 		color: $primary;
 		
 		@media (min-width: 1200px) {
