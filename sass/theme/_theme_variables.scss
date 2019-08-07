@@ -1,0 +1,42 @@
+$body-color: #333 !default;
+$font-family-sans-serif: 'Source Sans Pro', sans-serif;
+$font-family-base: 'Libre Baskerville', serif;
+$primary: #046389; 
+$secondary: #CC5D32;
+$border-radius: 0;
+$border-radius-sm: 0;
+$border-radius-lg: 0;
+$headings-line-height: 2.5rem !default;
+$input-btn-padding-x-lg: 2rem !default;
+$font-size-lg: 1.2rem !default;
+$font-size-sm: .8rem; 
+$paragraph-margin-bottom:   1.5rem !default;
+$font-size-base: .9rem !default;
+$line-height-base: 1.75 !default;
+
+body {
+	button:focus {
+		outline: none;
+	}
+	.btn-link:hover, .btn-link:focus {
+		text-decoration: none;
+	}
+	.card-body {
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+	.card-header {
+		.btn-link {
+			font-weight: bold;
+		}
+	}
+}
+
+$container-max-widths: (
+  sm: 100%,
+  md: 100%,
+  lg: 1140px,
+  xl: 1300px
+) !default;
+
