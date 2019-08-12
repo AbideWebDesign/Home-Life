@@ -107,8 +107,8 @@ add_image_size('col-6', 650);
 add_image_size('col-7', 759);
 add_image_size('card-3', 255, 141, true);
 add_image_size('card-4', 362, 200, true);
-add_image_size('hero banner large', 2400, 1200, array( 'center', 'center' ));
-add_image_size('hero banner small', 2400, 800, array( 'center', 'center' ));
+add_image_size('hero banner large', 1800, 997, array( 'center', 'center' ));
+add_image_size('hero banner small', 1800, 650, array( 'center', 'center' ));
 add_image_size('hero banner mobile', 500, 800, array( 'center', 'center' ));
 add_image_size('content block', 530, 640, true);
 

@@ -207,9 +207,9 @@ body {
 					margin-right: -45px;
 					
 					a {
-						background-color: #E27C5D;
+						background-color: white;
 						border: 0;
-						color: white;
+						color: $secondary;
 						font-size: $font-size-sm;
 						
 						&:hover {

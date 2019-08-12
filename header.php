@@ -49,7 +49,7 @@ defined( 'ABSPATH' ) || exit;
 		
 		<div class="container">
 			<div class="row">
-				<div class="col-12 col-sm-auto align-self-center text-center text-md-left mb-3 mb-sm-0">
+				<div class="col-12 col-sm-auto align-self-center text-center text-md-left mt-3 mt-sm-0 mb-sm-0">
 					<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><img src="<?php the_field('logo','options'); ?>" /></a>
 				</div>
 				<div class="col-12 col-sm-auto align-self-center flex-sm-grow-1 pt-4 pb-4 pb-lg-0">

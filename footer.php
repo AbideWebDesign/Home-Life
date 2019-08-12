@@ -19,9 +19,11 @@ defined( 'ABSPATH' ) || exit;
 		<div class="row">
 
 			<div class="col-lg-4 order-2 order-lg-1 text-center text-lg-left">
+<!--
 				<div class="mb-4">
 					<a class="footer-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><img src="<?php the_field('logo','options'); ?>" /></a>
 				</div>
+-->
 				<div class="d-flex justify-content-center justify-content-lg-start">
 					<div class="pr-5">
 						<?php the_field('address', 'option'); ?><br />
