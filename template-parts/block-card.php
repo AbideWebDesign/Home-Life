@@ -1,10 +1,16 @@
 <!-- Card Block -->
 <div class="py-3">
+	
 	<div class="row">
+	
 		<div class="col">
+	
 			<h2><?php the_sub_field('card_heading'); ?></h2>
+	
 		</div>
+	
 	</div>
+	
 	<div class="d-flex flex-column flex-lg-row">
 		
 		<?php if ( have_rows('cards') ): ?>
@@ -50,5 +56,6 @@
 		<?php endif; ?>
 		
 	</div>
+
 </div>	
 <!-- Card Block End -->
