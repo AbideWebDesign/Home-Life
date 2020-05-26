@@ -2,23 +2,21 @@
 	<div class="row">
 		<div class="col-12">
 			<div class="content-block">
-				<div class="content-block-wrap" <?php echo (get_sub_field('content_block_image_side') == 'Right' ? 'style="flex-direction: row-reverse;"' : ''); ?>>
+				<div class="row justify-content-between">
 					
-					<?php if(get_sub_field('include_content_block_image')): ?>
+					<?php if ( get_sub_field('include_content_block_image') ): ?>
 					
 						<?php $image = get_sub_field('content_block_image'); ?>
-						
-						<?php $image_type = (get_sub_field('content_block_type') == 'Tall' ? 'content block tall' : 'content block'); ?>
 
-						<div class="content-block-image">
+						<div class="col-xl-4 <?php echo (get_sub_field('content_block_image_side') == 'Right' ? 'order-1"' : ''); ?>">
 					
-							<?php echo wp_get_attachment_image($image, $image_type, false); ?>
+							<?php echo wp_get_attachment_image($image, 'content block', false, array('class'=>'img-fluid')); ?>
 					
 						</div>
 					
 					<?php endif; ?>
 					
-					<div class="content-block-content align-self-center <?php echo (get_sub_field('include_content_block_image') ? '' : 'content-block-content-full');  ?>">
+					<div class="<?php echo ( get_sub_field('include_content_block_image') ? 'col-xl-8' : 'col-12' ); ?>">
 					
 						<?php if (get_sub_field('content_block_heading')): ?>
 					
