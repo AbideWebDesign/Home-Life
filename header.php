@@ -66,7 +66,7 @@ defined( 'ABSPATH' ) || exit;
 							</div>
 						</form>
 						<div class="pl-xl-2 navbar-dark d-flex flex-grow-1 flex-sm-grow-0">
-							<div class="flex-fill"><a href="<?php echo home_url('/donate'); ?>" id="btn-donate" class="btn btn-secondary d-block d-inline-block">Donate</a></div>
+							<div class="flex-fill"><a href="<?php echo home_url('/donate'); ?>" id="btn-donate" class="btn btn-primary d-block d-inline-block">Donate</a></div>
 							<div class="flex-fill">
 								<a class="shiftnav-toggle shiftnav-toggle-button navbar-toggler d-block d-sm-inline-block d-lg-none w-100 text-center" data-shiftnav-target="shiftnav-main"><span class="navbar-toggler-icon"></span> <span class="navbar-toggler-text">Menu</span> </a>
 							</div>

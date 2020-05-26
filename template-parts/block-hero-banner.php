@@ -30,9 +30,11 @@
 						  				
 						  				<?php if ( get_field('hero_banner_link', $image['id']) ): ?>
 						  					
-						  					<p id="btn-carousel" class="d-flex justify-content-md-end mt-3 mt-md-0">
-						  						<a href="<?php the_field('hero_banner_link', $image['id']); ?>" class="btn btn-light"><?php the_field('hero_banner_link_label', $image['id']); ?> <i class="fa fa-chevron-right"></i></a>
-						  					</p>
+						  					<div id="btn-carousel" class="d-flex justify-content-md-end mt-3">
+							  					
+						  						<a href="<?php the_field('hero_banner_link', $image['id']); ?>" class="btn btn-primary"><?php the_field('hero_banner_link_label', $image['id']); ?> <i class="fa fa-chevron-right"></i></a>
+						  					
+						  					</div>
 						  				
 						  				<?php endif; ?>
 	
