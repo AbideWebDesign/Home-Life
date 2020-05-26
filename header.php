@@ -32,7 +32,6 @@ defined( 'ABSPATH' ) || exit;
 				<div class="col-auto">
 					<ul class="list-inline mb-0">
 						<li class="list-inline-item border-right"><a href="<?php echo home_url('/contact'); ?>">Contact Us</a></li>
-						<li class="list-inline-item border-right"><a href="<?php echo home_url('/newsletter'); ?>">Newsletter Signup</a></li>
 						<li class="list-inline-item pr-0"><a href="<?php the_field('facebook', 'option'); ?>" target="_blank"><i class="fa fa-facebook"></i></a></li>
 						<li class="list-inline-item"><a href="mailto:<?php the_field('email', 'option'); ?>"><i class="fa fa-envelope"></i></a></li>
 					</ul>
