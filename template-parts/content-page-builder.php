@@ -60,6 +60,12 @@
 		
 		<?php endif; ?>
 		
+		<?php if ( get_row_layout() == 'profiles' ): ?>
+
+			<?php get_template_part('template-parts/block', 'profile'); ?>
+		
+		<?php endif; ?>
+		
 		<?php if ( $x == 2 && !get_field('include_sidebar_block') ): ?> 
 		
 			</div>

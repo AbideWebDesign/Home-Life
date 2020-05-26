@@ -1,88 +1,11 @@
 {
-    "key": "group_5b4632288f762",
-    "title": "Block - Cards",
+    "key": "group_5e8621b6d4e07",
+    "title": "Block - Profile",
     "fields": [
         {
-            "key": "field_5b463235228c1",
-            "label": "Cards",
-            "name": "cards",
-            "type": "repeater",
-            "instructions": "",
-            "required": 1,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "collapsed": "",
-            "min": 2,
-            "max": 4,
-            "layout": "block",
-            "button_label": "Add Card",
-            "sub_fields": [
-                {
-                    "key": "field_5b463ae86d517",
-                    "label": "Card Content",
-                    "name": "card_content",
-                    "type": "group",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "layout": "row",
-                    "sub_fields": [
-                        {
-                            "key": "field_5b463b056d519",
-                            "label": "Card Image",
-                            "name": "card_image",
-                            "type": "image",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "50",
-                                "class": "",
-                                "id": ""
-                            },
-                            "return_format": "array",
-                            "preview_size": "thumbnail",
-                            "library": "all",
-                            "min_width": 510,
-                            "min_height": 282,
-                            "min_size": "",
-                            "max_width": "",
-                            "max_height": "",
-                            "max_size": "",
-                            "mime_types": ""
-                        },
-                        {
-                            "key": "field_5b467f7b15ad0",
-                            "label": "Card Link",
-                            "name": "card_link",
-                            "type": "link",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "50",
-                                "class": "",
-                                "id": ""
-                            },
-                            "return_format": "array"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "key": "field_5d4b2489bb955",
-            "label": "Card Heading",
-            "name": "card_heading",
+            "key": "field_5e8621b7002d0",
+            "label": "Profile Heading",
+            "name": "profile_heading",
             "type": "text",
             "instructions": "",
             "required": 1,
@@ -97,6 +20,83 @@
             "prepend": "",
             "append": "",
             "maxlength": ""
+        },
+        {
+            "key": "field_5e8621b6e13c3",
+            "label": "Profiles",
+            "name": "profiles",
+            "type": "repeater",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_5e8621b6e5964",
+            "min": 0,
+            "max": 0,
+            "layout": "block",
+            "button_label": "Add Profile",
+            "sub_fields": [
+                {
+                    "key": "field_5e8621b6e5964",
+                    "label": "Profile Content",
+                    "name": "profile_content",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e8621b6e8748",
+                            "label": "Profile Image",
+                            "name": "profile_image",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "thumbnail",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_5e8621b6e8754",
+                            "label": "Profile Link",
+                            "name": "profile_link",
+                            "type": "link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array"
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "location": [
@@ -116,5 +116,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1585848899
+    "modified": 1585849083
 }
