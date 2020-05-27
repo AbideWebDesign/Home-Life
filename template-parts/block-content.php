@@ -8,15 +8,15 @@
 					
 						<?php $image = get_sub_field('content_block_image'); ?>
 
-						<div class="col-xl-4 <?php echo (get_sub_field('content_block_image_side') == 'Right' ? 'order-1"' : ''); ?>">
+						<div class="col-md-3 col-lg-4 <?php echo (get_sub_field('content_block_image_side') == 'Right' ? 'order-1"' : ''); ?>">
 					
-							<?php echo wp_get_attachment_image($image, 'content block', false, array('class'=>'img-fluid')); ?>
+							<?php echo wp_get_attachment_image($image, 'content block', false, array('class'=>'img-fluid mb-3 mb-md-0')); ?>
 					
 						</div>
 					
 					<?php endif; ?>
 					
-					<div class="<?php echo ( get_sub_field('include_content_block_image') ? 'col-xl-8' : 'col-12' ); ?>">
+					<div class="<?php echo ( get_sub_field('include_content_block_image') ? 'col-md-9 col-lg-8' : 'col-12' ); ?>">
 					
 						<?php if (get_sub_field('content_block_heading')): ?>
 					

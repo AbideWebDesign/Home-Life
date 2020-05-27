@@ -51,6 +51,7 @@ li {
 			}
 		}
 	}
+	
 	#main-menu {
 		>li {
 			>a{
@@ -104,6 +105,14 @@ li {
 	@media (min-width: 992px) {
 		.navbar-toggler {
 			display: none;
+		}
+	}
+	@media (max-width: 992px) {
+		#navbar-secondary {
+			.btn-primary {
+				background-color: $secondary;
+				border-color: $secondary;
+			}
 		}
 	}
 }
@@ -232,7 +241,7 @@ body {
 	
 	&.carousel-wrap-sm {
 		.carousel-inner > .carousel-item {
-			min-height: 400px;
+			max-height: 400px;
 			
 			@media (min-width: 992px) {
 				max-height: 350px;
