@@ -14,7 +14,9 @@ ul {
 li {
 	margin-bottom: .25rem;
 }
-
+.text-sm {
+	font-size: 12px;
+}
 /* Wordpress */
 .wp-caption-text {
 	background-color: lighten($primary, 70);
@@ -340,9 +342,9 @@ body {
 				padding: 3em 0;
 			}
 			&.active {
-				background-color: #C3D7DF;
+				background-color: $primary-gray;
 				border-color: transparent;
-				color: $primary;
+				color: white;
 				position: relative;
 				
 				&:before {
@@ -359,10 +361,10 @@ body {
 		
 				}
 				.fa {
-					color: $primary;
+					color: white;
 				}
 				.fa-circle {
-					color: #C3D7DF;
+					color: $primary-gray;
 				}
 			}
 			&:hover, &:focus {
@@ -563,8 +565,8 @@ body {
 /* Page Block - Side Navigation */
 #wrapper-subnav {
 	h3 {
-		background-color: $primary-light;
-		color: $primary;
+		background-color: $primary-gray;
+		color: white;
 		
 		@media (min-width: 1200px) {
 			margin-left: -15px;
