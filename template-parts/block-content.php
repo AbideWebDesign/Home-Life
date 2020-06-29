@@ -18,9 +18,9 @@
 					
 						<?php $image = get_sub_field('content_block_image'); ?>
 
-						<div class="col-md-3 col-lg-4 <?php echo (get_sub_field('content_block_image_side') == 'Right' ? 'order-1"' : ''); ?>">
+						<div class="col-md-3 col-lg-4 <?php echo ( get_sub_field('content_block_image_side') == 'Right' ? 'order-1"' : '' ); ?>">
 					
-							<?php echo wp_get_attachment_image($image, 'content block', false, array('class'=>'img-fluid mb-3 mb-md-0')); ?>
+							<?php echo wp_get_attachment_image( $image, 'content block', false, array('class'=>'img-fluid mb-3 mb-md-0') ); ?>
 							
 							<?php if ( wp_get_attachment_caption($image) ): ?>
 							
