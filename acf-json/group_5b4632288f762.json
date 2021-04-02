@@ -3,6 +3,25 @@
     "title": "Block - Cards",
     "fields": [
         {
+            "key": "field_5d4b2489bb955",
+            "label": "Card Heading",
+            "name": "card_heading",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_5b463235228c1",
             "label": "Cards",
             "name": "cards",
@@ -61,6 +80,44 @@
                             "mime_types": ""
                         },
                         {
+                            "key": "field_606746c2caf4f",
+                            "label": "Card Title",
+                            "name": "card_title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_60674689966f2",
+                            "label": "Card Content",
+                            "name": "card_content",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "basic",
+                            "media_upload": 0,
+                            "delay": 0
+                        },
+                        {
                             "key": "field_5b467f7b15ad0",
                             "label": "Card Link",
                             "name": "card_link",
@@ -78,25 +135,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "key": "field_5d4b2489bb955",
-            "label": "Card Heading",
-            "name": "card_heading",
-            "type": "text",
-            "instructions": "",
-            "required": 1,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
         }
     ],
     "location": [
@@ -116,5 +154,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1585848899
+    "modified": 1617381064
 }

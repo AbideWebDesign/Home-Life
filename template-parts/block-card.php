@@ -38,6 +38,22 @@
 						<?php endif; ?>
 			
 						<div class="card-body">
+							
+							<?php if ( $card['card_title'] ): ?>
+							
+								<h5 class="mb-2 text-primary"><strong><?php echo $card['card_title']; ?></strong></h5>
+								
+							<?php endif; ?>
+							
+							<?php if ( $card['card_content'] ): ?>
+							
+								<div class="mb-3 text-center text-sm">
+									
+									<?php echo $card['card_content']; ?>
+									
+								</div>
+								
+							<?php endif; ?>
 										
 							<?php if ( $card['card_link'] ): ?>
 			
