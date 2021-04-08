@@ -1,23 +1,27 @@
 <!-- Card Block -->
 <div class="py-3">
 	
-	<div class="row">
-	
-		<div class="col">
-	
-			<h2><?php the_sub_field('card_heading'); ?></h2>
-	
+	<?php if ( get_sub_field('card_heading') ): ?>
+		
+		<div class="row">
+		
+			<div class="col">
+		
+				<h2><?php the_sub_field('card_heading'); ?></h2>
+		
+			</div>
+		
 		</div>
+		
+	<?php endif; ?>
 	
-	</div>
-	
-	<div class="d-flex flex-column flex-lg-row">
+	<div class="row">
 		
 		<?php if ( have_rows('cards') ): ?>
 		
 			<?php while ( have_rows('cards') ): the_row(); ?>
 		
-				<div class="card-block flex-lg-fill align-items-stretch mb-4 mb-md-2 mb-lg-0">
+				<div class="col-md-4 mb-4 mb-md-2 mb-lg-0">
 		
 					<?php $card = get_sub_field('card_content'); ?>
 					
@@ -29,7 +33,7 @@
 		
 							<?php $image = $card['card_image']; ?>	
 							
-							<a href="<?php echo $link['url']; ?>" target="<?php echo $link['target']; ?>"><?php echo wp_get_attachment_image($image['id'], 'card-4', 0, array('class' => 'card-img-top img-fluid')); ?></a>
+							<a href="<?php echo $link['url']; ?>" target="<?php echo $link['target']; ?>"><?php echo wp_get_attachment_image($image['id'], 'square', 0, array('class' => 'card-img-top img-fluid')); ?></a>
 						
 						<?php else: ?>
 						
