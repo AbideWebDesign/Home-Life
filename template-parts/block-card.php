@@ -21,7 +21,7 @@
 		
 			<?php while ( have_rows('cards') ): the_row(); ?>
 		
-				<div class="col-md-4 mb-4 mb-md-2 mb-lg-0">
+				<div class="col-md-3 mb-4 mb-md-2 mb-lg-0">
 		
 					<?php $card = get_sub_field('card_content'); ?>
 					
@@ -33,7 +33,7 @@
 		
 							<?php $image = $card['card_image']; ?>	
 							
-							<a href="<?php echo $link['url']; ?>" target="<?php echo $link['target']; ?>"><?php echo wp_get_attachment_image($image['id'], 'medium', 0, array('class' => 'card-img-top img-fluid')); ?></a>
+							<a href="<?php echo $link['url']; ?>" target="<?php echo $link['target']; ?>"><?php echo wp_get_attachment_image($image['id'], 'card-4', 0, array('class' => 'card-img-top img-fluid')); ?></a>
 						
 						<?php else: ?>
 						
