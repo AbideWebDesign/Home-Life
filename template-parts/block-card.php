@@ -33,7 +33,7 @@
 		
 							<?php $image = $card['card_image']; ?>	
 							
-							<a href="<?php echo $link['url']; ?>" target="<?php echo $link['target']; ?>"><?php echo wp_get_attachment_image($image['id'], 'square', 0, array('class' => 'card-img-top img-fluid')); ?></a>
+							<a href="<?php echo $link['url']; ?>" target="<?php echo $link['target']; ?>"><?php echo wp_get_attachment_image($image['id'], 'medium', 0, array('class' => 'card-img-top img-fluid')); ?></a>
 						
 						<?php else: ?>
 						
